@@ -1,4 +1,4 @@
-followables = [oPlayer];
+followables = [oP];
 follow_a = 0 // what followables[] the is camera on 
 follow = followables[follow_a]; // This camera will follow obj_player
 target_x = follow.x
@@ -6,8 +6,8 @@ target_y = follow.y
 
 mouse_distance = point_distance(x,y,mouse_x,mouse_y);
 
-global.cam_width = 1920;
-global.cam_height = 1080;
+global.cam_width = 360;
+global.cam_height = 270;
 
 cam_speed = 5; // higher values = slower cam
 

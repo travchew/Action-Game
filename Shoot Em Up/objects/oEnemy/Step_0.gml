@@ -1,6 +1,6 @@
-range = distance_to_object(oPlayer);
+range = distance_to_object(oP);
 
-if (hp > 0  )move_towards_point(oPlayer.x,oPlayer.y,move_spd * spd_multi);
+if (hp > 0) move_towards_point(oP.x,oP.y,move_spd * spd_multi);
 if (range > 400) {
 	move_spd = fast_spd;
 }
@@ -19,7 +19,7 @@ if (stun_timer > 0) {
 else spd_multi = 1;
 
 if (hp <= 0) {
-	sprite_index = sBowlerDead;
+	sprite_index = sEnemyDead;
 }
 
 

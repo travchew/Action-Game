@@ -4,7 +4,7 @@ fast_spd = 4;
 slow_spd = 1;
 spd_multi = 1;
 
-range = distance_to_object(oPlayer);
+range = distance_to_object(oP);
 
 // Shake
 shake_setup();

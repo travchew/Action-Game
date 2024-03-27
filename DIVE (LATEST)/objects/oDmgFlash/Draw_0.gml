@@ -1,0 +1,1 @@
+draw_rectangle_color(0 - 200,0 - 200,room_width + 200,room_height + 200,c_white,c_white,c_white,c_white,false);
